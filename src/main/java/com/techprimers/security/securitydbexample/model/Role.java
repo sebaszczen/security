@@ -14,6 +14,9 @@ public class Role {
     @Column(name = "role")
     private String role;
 
+//    @ManyToOne
+//    private Users users;
+
     public Role() {
     }
 
